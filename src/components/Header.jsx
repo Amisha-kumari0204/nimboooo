@@ -3,13 +3,13 @@ import React from 'react'
 const Header = () => {
   return (
 
-    <header className="flex justify-between items-center p-4 bg-gradient-to-r from-black to-gray-800 text-white">
+    <header className="header flex justify-between items-center p-4 bg-gradient-to-r from-black to-gray-800 text-white">
       <div className="flex items-center">
-        {/* <img src="/image.jpg" alt="Logo" className="h-8 w-8 mr-2" /> */}
-        <h1 className="font-bold text-lg text-green-400">Nimbooo</h1>
+        <img src="./nimbooNv.jpg" alt="Logo" className="logo h-10 w-auto mr-2" />
+        {/* <h1 className="font-bold text-lg text-green-400">Nimbooo</h1> */}
       </div>
       <nav className="flex space-x-4 px-4 py-2 bg-gray-900 rounded-lg shadow-lg">
-        <a href="#" className="hover:text-gray-300">All Pages</a>
+        <a href="#" className="hover:text-gray-300">All Pages <i class="fa fa-caret-down"></i></a>
         <a href="#" className="hover:text-gray-300">Integrations</a>
         <a href="#" className="hover:text-gray-300">Pricing</a>
         <a href="#" className="hover:text-gray-300">Contact</a>
