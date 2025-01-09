@@ -10,7 +10,7 @@ const App = () => {
 
       <Header />
       <div>
-      <Hero />
+      <Hero/>
       <Features />
       </div>
       

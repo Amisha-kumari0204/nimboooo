@@ -9,19 +9,18 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative z-10 max-w-4xl mx-auto text-center">
-<div class="search-container">
-  <div class="search-icon">
-  <i class="fas fa-search"></i>
-  </div>
-  <input
-    type="text"
-    class="search-input"
-    placeholder="Search a creator"
-  />
-  <div class="send-icon">
-    ➤
-  </div>
-</div>
+          <div class="search-container">
+          <div class="search-icon">
+          <i class="fas fa-search"></i>
+          </div>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search a creator"/>
+          <div class="send-icon">
+            ➤
+          </div>
+        </div>
 
         <h1 className="text-4xl md:text-5xl font-bold">
           Fuel Your Creativity with <span className="text-green-500">Nimbooo</span>
