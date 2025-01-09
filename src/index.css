@@ -21,22 +21,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
 }
-.relative{
-  background-color:#021811;
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 #sa {
-
-  background-image: linear-gradient(to left, red, blue); /* Adjust colors as needed */
+  background-image: linear-gradient(to right, #ff00ff, #2600ff);
   background-clip: text;
-  font-size: xxx-large;
+  font-size: 50px;
   color: transparent;
-  top: 10px;
 
 }
 
@@ -46,16 +41,71 @@ code {
 .pag{
   color:rgb(247, 4, 247);
 }
+
 .relative{
   height: 100vh;
-  padding-top: 5%;
+  padding-top: 8%;
 }
 
+
+.features{
+  position: relative;
+  z-index: 999;
+}
+
+.text-sm{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 20%;
+  margin-bottom: 50px;
+  width: 500px;
+  height: 50px;
+  background: #1a1a2e; /* Dark background inside the search bar */
+  border: 2px solid transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(#1a1a2e, #1a1a2e),
+    linear-gradient(to right, #ff00ff, #8000ff);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px rgba(128, 0, 255, 0.5); /* Subtle glow */
+}
+
+.search-icon {
+  color: #ccc;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.search-input {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #666;
+}
+
+.send-icon {
+  color: #ccc;
+  font-size: 18px;
+  margin-left: 10px;
+}
 .header {
   width: 80vw;
   align-items: center;
   margin-left: 9%;
   align-self: center;
+  top: 10px;
   display: flex;
   background: transparent;
   background: rgba(37, 37, 48, 0.7);
@@ -63,7 +113,6 @@ code {
   border-radius: 50px;
   position: fixed;
   z-index: 999;
-  top: 15px;
 }
 
 .dropdown-content {
@@ -72,7 +121,7 @@ code {
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 999;
 }
 
 .dropdown-content a {
@@ -100,4 +149,12 @@ code {
 .logo{
   /* blend-mode: multiply; */
   mix-blend-mode: lighten;
+}
+
+.landingBack{
+  height: 150vh;
+}
+
+.fa-solid{
+  font-size: xx-large ;
 }

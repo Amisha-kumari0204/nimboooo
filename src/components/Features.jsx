@@ -2,14 +2,12 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <section className="bg-gray-900 text-white py-20 px-8">
+    <section className="features text-white py-20 px-8">
     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
       {/* Feature 1 */}
       <div className="p-8 bg-gradient-to-b from-gray-800 to-black rounded-lg shadow-xl text-center">
         <div className="mb-6 text-purple-500">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a4 4 0 10-8 0v2m0 0v6m0-6h8m-8 10h8" />
-          </svg>
+          <i className="fa-solid fa-arrow-right-arrow-left h-16 w-16 mx-auto"></i>
         </div>
         <h3 className="text-2xl font-semibold">No Delay</h3>
         <p className="mt-4">

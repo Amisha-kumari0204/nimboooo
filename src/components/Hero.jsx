@@ -1,18 +1,32 @@
 import React from 'react'
-import  '../index.css'
+
 const Hero = () => {
   return (
-    <section className="relative  text-white py-16 px-4">
+    <section className="relative text-white py-16 px-4">
       <div className="absolute inset-0">
-        <div className="opacity-30">
-         {/* <img src="../bgImgCurv.png" alt="BackgroundImg" /> */}
+        <div className="opacity-100">
+          <img src="./BackgroundImg.jpg" alt="background" style={{backgroundImagesize: 'cover', width: '100%'}}/>
         </div>
       </div>
       <div className="relative z-10 max-w-4xl mx-auto text-center">
+<div class="search-container">
+  <div class="search-icon">
+  <i class="fas fa-search"></i>
+  </div>
+  <input
+    type="text"
+    class="search-input"
+    placeholder="Search a creator"
+  />
+  <div class="send-icon">
+    ➤
+  </div>
+</div>
+
         <h1 className="text-4xl md:text-5xl font-bold">
-          Fuel Your Creativity with <span className="text-green-400">Nimbooo</span>
+          Fuel Your Creativity with <span className="text-green-500">Nimbooo</span>
         </h1>
-        <div id="sa" className='text-4xl md:text-5xl font-bold'>The Feature of Micro Payment</div>
+        <div className="font-bold" id="sa">The Feature of Micro Payment</div>
         <p className="text-lg mt-4">
           Nimbooo is your trusted partner for micro and nano payments, enabling you to monetize your content and connect with supporters through effortless QR-based payment links.
         </p>
